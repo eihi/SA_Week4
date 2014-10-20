@@ -1,0 +1,29 @@
+﻿@model SudokuASP.Models.SudokuGrid
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Sudoku</h2>
+
+@using (Html.BeginForm("Index", "Sudoku", FormMethod.Post))
+{
+    <input type="Submit" class="" name="" value="New Game" />
+}
+
+<table>
+    @for (int i = 0; i < 9; i++)
+    {
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    }
+</table>

@@ -1,5 +1,5 @@
-﻿using SA_Week4.View;
-using SA_Week4.ViewModel;
+﻿using SudokuWPF.View;
+using SudokuWPF.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace SA_Week4
+namespace SudokuWPF
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -18,8 +18,12 @@ namespace SA_Week4
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            View.SodokuView sv = new View.SodokuView(new SudokuViewModel());
-            sv.Show();
+
+            SudokuView sudokuView = new SudokuView();
+            SudokuViewModel sudokuViewModel = new SudokuViewModel();
+            sudokuView.DataContext = sudokuViewModel;
+
+            sudokuView.Show();
         }
     }
 }

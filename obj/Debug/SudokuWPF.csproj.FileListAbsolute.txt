@@ -1,0 +1,13 @@
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\bin\Debug\SudokuWPF.exe.config
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\bin\Debug\SudokuWPF.exe
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\bin\Debug\SudokuWPF.pdb
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\bin\Debug\SudokuBasis.dll
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\View\SudokuView.baml
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\View\SudokuView.g.cs
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\App.g.cs
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF_MarkupCompile.cache
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.g.resources
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.Properties.Resources.resources
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.csproj.GenerateResource.Cache
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.exe
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.pdb

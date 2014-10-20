@@ -23,3 +23,17 @@ C:\Users\Esté\Downloads\SA_Week4\SA_Week4\SA_Week4\obj\Debug\Interop.Sudoku.dll
 C:\Users\Esté\Downloads\SA_Week4\SA_Week4\SA_Week4\obj\Debug\SA_Week4.csproj.ResolveComReference.cache
 C:\Users\Esté\Downloads\SA_Week4\SA_Week4\SA_Week4\obj\Debug\SA_Week4.exe
 C:\Users\Esté\Downloads\SA_Week4\SA_Week4\SA_Week4\obj\Debug\SA_Week4.pdb
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\View\SudokuView.baml
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\View\SudokuView.g.cs
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\App.g.cs
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SA_Week4_MarkupCompile.cache
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SA_Week4.g.resources
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SA_Week4.Properties.Resources.resources
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SA_Week4.csproj.GenerateResource.Cache
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\bin\Debug\SA_Week4.exe.config
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SA_Week4.csprojResolveAssemblyReference.cache
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\bin\Debug\SA_Week4.exe
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\bin\Debug\SA_Week4.pdb
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SA_Week4.exe
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SA_Week4.pdb
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\bin\Debug\SudokuBasis.dll
