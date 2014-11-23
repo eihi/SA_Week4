@@ -11,3 +11,4 @@ C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.Properties.R
 C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.csproj.GenerateResource.Cache
 C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.exe
 C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.pdb
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\obj\Debug\SudokuWPF.csprojResolveAssemblyReference.cache

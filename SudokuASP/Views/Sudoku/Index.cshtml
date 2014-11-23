@@ -1,29 +1,79 @@
-﻿@model SudokuASP.Models.SudokuGrid
-
-@{
+﻿@{
     ViewBag.Title = "Index";
 }
 
 <h2>Sudoku</h2>
 
-@using (Html.BeginForm("Index", "Sudoku", FormMethod.Post))
-{
-    <input type="Submit" class="" name="" value="New Game" />
-}
+    <form action="/Sudoku/NewGame">
+        <input type="submit" name="index" value="New Game" />
+    </form>
 
-<table>
-    @for (int i = 0; i < 9; i++)
-    {
-        <tr>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-        </tr>
-    }
-</table>
+    <form action="/Sudoku/Cheat">
+        <input type="submit" name="cheat" value="Cheat" />
+    </form>
+
+    <form action="/Sudoku/GetHint">
+        <input type="submit" name="hint" value="Hint" />
+        <label>@Model[1]</label>
+    </form>
+
+    <div id="sudoku-field">
+        <table border="1">
+            <tbody>
+                @{
+                    for (int y = 1; y < 10; y++)
+                    {
+                        <tr style="height: 20px;">
+                            @{
+                        for (int x = 1; x < 10; x++)
+                        {
+                            <td style="width: 20px;">
+                                @{
+                            string s = "" + y + x;
+                            int i = Convert.ToInt32(s);
+                                }
+                                @Model[0][i]
+                            </td>
+                        }
+                            }
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div id="sudoku-input">
+        <form action="/Sudoku/FillIn">
+            <label>X:</label>
+            <select name="X">
+                @{
+                    for (int val = 1; val < 10; val++)
+                    {
+                        <option value="@val">@val</option>
+                    }
+                }
+            </select>
+            <label>Y:</label>
+            <select name="Y">
+                @{
+                    for (int val = 1; val < 10; val++)
+                    {
+                        <option value="@val">@val</option>
+                    }
+                }
+            </select>
+            <label>Value:</label>
+            <select name="Value">
+                @{
+                    for (int val = 1; val < 10; val++)
+                    {
+                        <option value="@val">@val</option>
+                    }
+                }
+            </select>
+            <input type="submit" name="ok" value="Ok" />
+        </form>
+        @ViewBag.Finished;
+
+    </div>

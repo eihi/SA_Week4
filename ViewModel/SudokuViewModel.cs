@@ -100,14 +100,10 @@ namespace SudokuWPF.ViewModel
             bool check = game.FillIn(YAxis, XAxis, PutValue);
 
             if (check == true)
-            {
                 GetGrid();
-            }
 
             if (game.IsFinished())
-            {
-                //MessageBox.Show("Game is finished.");
-            }
+                MessageBox.Show("Congratulations you just finished the game", "Game finished!");
         }
 
         public SudokuModel Game
@@ -132,23 +128,16 @@ namespace SudokuWPF.ViewModel
                         BorderThickness = new Thickness(1, 1, 0, 0),
                         HorizontalContentAlignment = System.Windows.HorizontalAlignment.Center,
                         VerticalContentAlignment = System.Windows.VerticalAlignment.Center,
-
                     };
 
                     lbl.Content = (value != 0) ? value : lbl.Content = "";
 
                     if ((i == 3 || i == 6 || i == 9) && (j == 3 || j == 6 || j == 9))
-                    {
                         lbl.BorderThickness = new Thickness(1, 1, 1, 1);
-                    }
                     else if (i == 3 || i == 6 || i == 9)
-                    {
                         lbl.BorderThickness = new Thickness(1, 1, 0, 1);
-                    }
                     else if (j == 3 || j == 6 || j == 9)
-                    {
                         lbl.BorderThickness = new Thickness(1, 1, 1, 0);
-                    }
 
                     Grid.SetRow(lbl, i - 1);
                     Grid.SetColumn(lbl, j - 1);

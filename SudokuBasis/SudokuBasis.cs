@@ -94,7 +94,15 @@ namespace SudokuBasis
 
         public bool IsFinished()
         {
-            return (FilledInSquares == TOTAL_NUMBER_OF_SQUARES) ? true : false;
+            bool finished = false;
+            if (FilledInSquares == TOTAL_NUMBER_OF_SQUARES)
+            {
+                int valid;
+                game.isValid(out valid);
+                if (valid == 1)
+                    finished = true;
+            }
+            return finished;
         }
     }
 }

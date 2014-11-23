@@ -40,3 +40,10 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
+
+/* custom style */
+#sudoku-field td {
+    padding: 10px;
+    border-color: gray;
+    border-width: 2px;
+}

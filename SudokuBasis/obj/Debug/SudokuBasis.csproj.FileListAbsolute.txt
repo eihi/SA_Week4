@@ -1,0 +1,7 @@
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\SudokuBasis\bin\Debug\SudokuBasis.dll
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\SudokuBasis\bin\Debug\SudokuBasis.pdb
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\SudokuBasis\obj\Debug\SudokuBasis.csprojResolveAssemblyReference.cache
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\SudokuBasis\obj\Debug\Interop.Sudoku.dll
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\SudokuBasis\obj\Debug\SudokuBasis.csproj.ResolveComReference.cache
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\SudokuBasis\obj\Debug\SudokuBasis.dll
+C:\Users\Niek Willems\Documents\GitHub\SA_Week4\SudokuBasis\obj\Debug\SudokuBasis.pdb
